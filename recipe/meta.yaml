@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - dvc-render
-    - python >=3.6
-
+    - ruamel.yaml >= 0.17.11
+    - python >=3.8
+    
 test:
   imports:
     - dvclive
