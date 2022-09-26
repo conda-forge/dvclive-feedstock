@@ -20,7 +20,7 @@ requirements:
     - python >=3.8
   run:
     - dvc-render
-    - ruamel.yaml >= 0.17.11
+    - ruamel.yaml >=0.17.11
     - python >=3.8
     
 test:
