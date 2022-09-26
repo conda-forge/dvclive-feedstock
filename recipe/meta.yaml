@@ -1,5 +1,5 @@
 {% set name = "dvclive" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dvclive-{{ version }}.tar.gz
-  sha256: 0a56c76619ba194de5239f0857b6c0a4cb596f6d829bcc2128887c00b429ab1b
+  sha256: 46509886b7d8ea89166242cfd4b140df4daf797b7f9ece17c719cfc025df2584
 
 build:
   noarch: python
@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - dvc-render
-    - python >=3.6
-
+    - ruamel.yaml >=0.17.11
+    - python >=3.8
+    
 test:
   imports:
     - dvclive
