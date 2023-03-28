@@ -1,11 +1,11 @@
-About dvclive
-=============
+About dvclive-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dvclive-feedstock/blob/main/LICENSE.txt)
 
 Home: https://dvc.org/doc/dvclive
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dvclive-feedstock/blob/main/LICENSE.txt)
 
 Summary: Metric logger for ML projects.
 
