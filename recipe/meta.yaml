@@ -21,6 +21,7 @@ requirements:
     - setuptools_scm >=6.3.1
   run:
     - dvc >2.45.1
+    - dvc-studio-client >=0.7.0,<1
     - funcy
     - ruamel.yaml >=0.15.0
     - python >=3.8
