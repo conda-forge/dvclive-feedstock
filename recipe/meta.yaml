@@ -1,5 +1,5 @@
 {% set name = "dvclive" %}
-{% set version = "2.11.1" %}
+{% set version = "2.11.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dvclive-{{ version }}.tar.gz
-  sha256: d1d054044091adf5963a7558102e5c69f94c4946dbc77f6b77b10377e3d4fd4a
+  sha256: c0127ccafb8b12de6b1e5040092b4d82136009ccb01e74890734347c7065a01e
 
 build:
   noarch: python
